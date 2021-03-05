@@ -1,0 +1,9 @@
+{
+  "type": "sqlite",
+  "database": "./src/shared/database/database.sqlite",
+  "migrations": ["./src/shared/database/migrations/*.ts"],
+  "entities": ["./src/modules/**/typeorm/entities/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/shared/database/migrations"
+  }
+}
